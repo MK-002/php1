@@ -1,0 +1,90 @@
+.headr
+    {
+    height: 18%; /* Full-height: remove this if you want "auto" height */
+    width: 100%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0px; /* Stay at the top */
+    left: px;
+    background-color: #1da9e5; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden; 
+    margin-right: 0px;
+    font: arial;
+    font-size: 50px;
+    }
+body{
+    overflow-y: hidden; 
+    background-color: #f4f7fb; 
+}
+.headr p {
+    font: arial;
+    font-size: 50px;
+    margin-left: 250px;
+    margin-top: 25px;
+}
+.tablinks {
+    height:50px;
+    width: 220px;
+    cursor:pointer;    
+    color: white;
+    background-color: rgba(1,49,71,255);
+    font-size: 20px;
+    font: arial;
+}
+.tablinks a {
+    text-decoration: none;
+    color: white;
+}
+.tablinks:hover {
+    background-color: #1da9e5;
+    color: white;
+  }
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 220px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0px; /* Stay at the top */
+    left: 0px;
+    background-color: rgba(1,49,71,255); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+.sidenav img{
+    margin-left:17px;
+    width:180px;
+    height:180px;    
+}
+.tabcontentlecture iframe {
+    margin-left:230px;
+    margin-top:120px;
+    width:80%;
+    height:498px;
+}
+
+
+.container p{
+    margin-left:230px;
+    margin-top:150px;
+    background: rgb(255, 255, 255);
+    color:black;
+    padding:20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.tabcontenthome iframe{
+        margin-left:230px;
+        margin-top:0px;
+        width:81%;
+        height:300px;
+
+}
+.tabcontenttp{
+    margin-left:250px;
+    margin-top:180px;
+    font:arial;
+    font-size: 30px;
+        
+}
