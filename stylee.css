@@ -1,0 +1,35 @@
+body{
+    padding:50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    background: #00000091;
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    border-radius: 25px;
+    box-shadow: rgba(200, 131, 22, 0.2) 0px 7px 29px 0px;
+}
+.form-group{
+    margin-bottom:30px;
+}
+.btn-primary{
+    background: #1e80dcf2;
+    max-width: 600px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 5px 15px;
+    
+}
+.text{
+    display: inline-block;
+    color: #fff;
+}
